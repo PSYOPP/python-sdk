@@ -1,0 +1,153 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlencode",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlunparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "anyio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "anyio",
+        "description": "anyio",
+        "detail": "anyio",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "connect",
+        "importPath": "websockets.asyncio.client",
+        "description": "websockets.asyncio.client",
+        "isExtraImport": true,
+        "detail": "websockets.asyncio.client",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryObjectReceiveStream",
+        "importPath": "anyio.streams.memory",
+        "description": "anyio.streams.memory",
+        "isExtraImport": true,
+        "detail": "anyio.streams.memory",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryObjectSendStream",
+        "importPath": "anyio.streams.memory",
+        "description": "anyio.streams.memory",
+        "isExtraImport": true,
+        "detail": "anyio.streams.memory",
+        "documentation": {}
+    },
+    {
+        "label": "Subprotocol",
+        "importPath": "websockets.typing",
+        "description": "websockets.typing",
+        "isExtraImport": true,
+        "detail": "websockets.typing",
+        "documentation": {}
+    },
+    {
+        "label": "mcp.types",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mcp.types",
+        "description": "mcp.types",
+        "detail": "mcp.types",
+        "documentation": {}
+    },
+    {
+        "label": "create_smithery_url",
+        "kind": 2,
+        "importPath": "smithery.url",
+        "description": "smithery.url",
+        "peekOfCode": "def create_smithery_url(base_url, config={}):\n    \"\"\"\n    Create a Smithery URL with optional configuration parameters encoded in base64.\n    Args:\n        base_url (str): The base URL to use\n        config (dict, optional): Configuration object to encode and add as a query parameter\n    Returns:\n        str: The complete URL with any configuration parameters added\n    \"\"\"\n    # Parse the URL",
+        "detail": "smithery.url",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "smithery.websocket",
+        "description": "smithery.websocket",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def websocket_client(url: str) -> AsyncGenerator[\n    tuple[\n        MemoryObjectReceiveStream[types.JSONRPCMessage | Exception],\n        MemoryObjectSendStream[types.JSONRPCMessage],\n    ],\n    None,\n]:\n    \"\"\"",
+        "detail": "smithery.websocket",
+        "documentation": {}
+    }
+]
